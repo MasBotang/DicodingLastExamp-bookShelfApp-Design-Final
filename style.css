@@ -15,23 +15,23 @@ nav {
   justify-content: center;
   text-align: center;
   align-items: center;
-  margin: 1vw;
+  margin: 1.5vw;
   gap: 2vw;
-  margin: 2.2vw;
+
 }
 nav ul {
   list-style-type: none;
 }
 nav ul li a {
   text-decoration: none;
-  font-size: 2vw;
+  font-size: 1.5vw;
   color: #4f4f4f;
 }
 #h1-nav {
-  font-size: 3vw;
+  font-size: 2.5vw;
   background-color: #dfac2e;
   border: 5px solod #faf07c;
-  padding: 1vw;
+  padding: 0.5vw;
   border-radius: 5px;
 }
 /* Cari buku */
@@ -57,11 +57,14 @@ nav ul li a {
 #h4-heading {
   font-size: 1.5vw;
   color: #fff;
+  font-weight: 600;
 }
 #p-heading {
   margin: 10px 0;
   font-size: 1.2vw;
-  color: #1a1a1a;
+  font-weight: 500;
+  color: #4f4f4f;
+  
 }
 
 #img-1 {
@@ -77,15 +80,16 @@ nav ul li a {
 #searchBookTitle {
   width: 30vw;
   min-height: 2vh;
-  background: #4f4f4f;
+  background: #d9d9d9;
   border: none;
-  color: #d9d9d9;
+  color: #000;
   outline: none;
   border-radius: 5px;
   padding: 1%;
+  padding-left: 2%;
 }
 #searchBookTitle:active {
-  background: #4f4f4f;
+  background: #d9d9d9;
   border: none;
 }
 #searchSubmit {
