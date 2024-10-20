@@ -15,8 +15,8 @@ nav {
   justify-content: center;
   text-align: center;
   align-items: center;
-  margin: 1.5vw;
-  gap: 2vw;
+  margin: 1vw;
+  gap: 1vw;
 
 }
 nav ul {
@@ -24,11 +24,13 @@ nav ul {
 }
 nav ul li a {
   text-decoration: none;
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   color: #4f4f4f;
+  display: flex;
+  text-align: center;
 }
 #h1-nav {
-  font-size: 2.5vw;
+  font-size: 1.7vw;
   background-color: #dfac2e;
   border: 5px solod #faf07c;
   padding: 0.5vw;
@@ -37,19 +39,19 @@ nav ul li a {
 /* Cari buku */
 #cariBuku {
   width: 100%;
-  height: 50vw;
+  height: 45vw;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   background-color: #dfac2e;
 }
 .container-1 {
-  width: 38vw;
+  width: 40vw;
   align-items: self-start;
-  margin: 2vh 0;
+  margin-top: 2%;
 }
 #h1-heading {
-  font-size: 7vw;
+  font-size: 5vw;
   letter-spacing: 5px;
   color: #4f4f4f;
   margin-top: 10px;
@@ -64,11 +66,10 @@ nav ul li a {
   font-size: 1.2vw;
   font-weight: 500;
   color: #4f4f4f;
-  
 }
 
 #img-1 {
-  width: 33vw;
+  width: 25vw;
 }
 .search-box {
   width: 40vw;
